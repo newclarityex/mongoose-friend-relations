@@ -2,19 +2,26 @@
   "name": "mongoose-relations",
   "version": "1.0.0",
   "description": "A plugin to handle friendship and blocking for the Mongoose ODM with Async/Await support.",
-  "main": "index.js",
+  "main": "./lib/index.js",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha ./lib/test/*.js"
   },
   "keywords": [
-    "gamepad",
-    "controller",
-    "html5 controller"
+    "mongoose",
+    "friends",
+    "relationships"
   ],
   "author": "newclarityex",
   "license": "MIT",
+  "devDependencies": {
+    "@types/mocha": "^9.1.0",
+    "mocha": "^9.2.2"
+  },
   "dependencies": {
-    "jest": "^27.5.1",
-    "typescript": "^4.6.3"
+    "mongoose": "^6.2.10"
   }
 }
