@@ -4,7 +4,7 @@
   "description": "A plugin to handle friendship and blocking for the Mongoose ODM with Async/Await support.",
   "main": "./lib/index.js",
   "files": [
-    "dist"
+    "lib"
   ],
   "scripts": {
     "test": "mocha ./lib/test/*.js"
