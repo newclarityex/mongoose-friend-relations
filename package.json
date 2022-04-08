@@ -1,6 +1,6 @@
 {
   "name": "mongoose-friend-relations",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A plugin to handle friendship and blocking for the Mongoose ODM with Async/Await support.",
   "main": "./lib/index.js",
   "files": [
